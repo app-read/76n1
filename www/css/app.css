@@ -1,0 +1,1062 @@
+
+/* Your app styles here */
+/* A bit of demo styles */;
+@import url(https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css);
+
+
+.ios .list .item-inner:after{display: none !important;}
+
+.swiper-slide {
+    font-size: 25px;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    color: #000;
+  }
+.swiper-slide {
+    box-sizing: border-box;
+    background: #fff;
+  }
+  .swiper-slide {
+    margin: 0px 0 35px;
+    font-size: 18px;
+    height: 120px;
+  }
+.swiper-slide {
+    width: 100%;
+  }
+.swiper-slide:nth-child(2n) {
+    width: 70%;
+  }
+.swiper-slide:nth-child(3n) {
+    width: 30%;
+  }
+ 
+
+
+.progress-bar{
+  position: relative;
+  width: 90%;
+  height: 9px;
+  background-image: linear-gradient(to right, #e4e4e4 80%, rgba(255,255,255,0) 0%);
+  background-position: left;
+  background-size: 7px 100%;
+  background-repeat: repeat-x;
+  margin: 0 auto
+}  
+
+
+.progress-bar span{
+  background-image: linear-gradient(to right, #661f88 80%, rgba(255,255,255,0) 0%);
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin:0;
+}
+
+
+
+
+
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #b2b2b2;
+  font-weight: 400;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #b2b2b2;
+  font-weight: 400;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #b2b2b2;
+  font-weight: 400;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #b2b2b2;
+  font-weight: 400;
+}
+
+.bold::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #b2b2b2;
+  font-weight: 600;
+}
+.bold::-moz-placeholder { /* Firefox 19+ */
+  color: #b2b2b2;
+  font-weight: 600;
+}
+.bold:-ms-input-placeholder { /* IE 10+ */
+  color: #b2b2b2;
+  font-weight: 600;
+}
+.bold:-moz-placeholder { /* Firefox 18- */
+  color: #b2b2b2;
+  font-weight: 600;
+}
+
+.navbar-inner .material-icons{color: #fff}
+
+.ios body{font-family: 'NanumSquare', 'Lato' ; letter-spacing: -0.7px}
+.ios .card{ border:none; box-shadow: none; background-color: transparent; margin: 0}
+.ios .navbar:after{border-bottom: 1px solid #bdbdbd}
+.ios .navbar-inner{padding: 0 5px; background: #000}
+.mgt25{margin-top: 25px !important}
+.mgt32{margin-top: 32px !important; padding: 0 !important}
+.mgt40{margin-top: 40px !important; padding: 0 !important}
+.mgt50{margin-top: 50px !important}
+
+.mgb10{margin-bottom: 10px !important}
+/* lks */
+.navbar{background-color: #fff !important; padding: 0 20px}
+.navbar div.title{background-image: url(../images/logo.png); background-repeat: no-repeat; background-position: 10px center; background-size: 50px; width: 100%; height: 100%}
+.md .navbar{background-color: transparent; border-bottom: 1px solid lightgray}
+.md .navbar .title{color: #000}
+.md .navbar .material-icons{color: #000}
+.md .navbar:after{display: none;}
+.page-content.step{background-color: #fff; display: flex; flex-direction: column;}
+.page-content.step.label{background-color: #f5f5f5}
+.page-content.step.order{padding: 0; display: flex; flex-direction: column;}
+.page-content.step.recommend{padding: 0;  display: flex; flex-direction: column;}
+.page-content.step.card{background-color: #fff}
+
+.page-content.photo{background-color: #fff; display: flex; flex-direction: column;}
+.page-content.card{background-color: #f5f5f5; margin: 0;/* padding: 15px; padding-bottom: 65px*/ display: flex; flex-direction: column;}
+.page-content.login{background-color: #fff}
+.page-content.join{background-color: #f5f5f5}
+.page-content.agree{background-color: #fff; padding: 25px 15px; color: #606060}
+.page-content.customer{background-color: #fff; display: flex; flex-direction: column;}
+.page-content.write{background-color: #fff; display: flex; flex-direction: column; }
+.page-content.mypage{background-color: #fff}
+.page-content.mypage.v2{background-color: #f5f5f5}
+.page-content.cart{background-color: #f5f5f5}
+.page-content.peedback{background-color: #f5f5f5}
+.page-content.survey{display: flex; flex-direction: column;}
+.empty{display: flex !important; flex-direction: column; background-color: #fff !important}
+.page-content.write .footer-button{flex: none; margin-top: 0}
+.page-content.photo .footer-button{flex: none; margin-top: 0}
+div.step div.step-area> p, div.photo-area > p{text-align: center; margin-top: 15px; font-size: 12px; font-weight: 600}
+div.step div.block h1{font-size: 15px; font-weight: 300; text-align: center; color: #000}
+div.step.order div.block{padding: 25px 0; margin: 0}
+div.step.order div.block h1{font-size: 14px; color: #000000; font-weight: 600}
+div.step.label div.block h1{font-size: 12px; color: #000; font-family: 'AppleGothic', sans-serif; line-height: 20px; letter-spacing: -1.5px}
+div.step.label div.block{margin-bottom: 20px}
+
+b.purple{color: #661f88;}
+div.card-wrapper{padding: 0 15px; padding-bottom: 15px}
+/*div.options{text-align: center;}
+div.options button.circle {width: 70px; height: 70px; border-radius: 70px; background: transparent; border:1px solid #9fa0a0; margin: 0 20px}
+div.options button.circle.active{border: 2px solid #666565;}
+
+div.options.v2 button.circle{ margin: 0 10px }*/
+
+div.footer-button{/*position: fixed; bottom: 0; left: 0;*/ height: 50px; width: 100%; z-index: 999; flex:1; position: relative;; margin-top: 50px}
+div.footer-button button{width: 50%; float: left; height: 50px; border:0; color: #fff; font-size: 15px; font-weight: 600; position: absolute; bottom: 0}
+div.footer-button button:first-child{left: 0}
+div.footer-button button:last-child{right: 0}
+button.prev{background-color: #747e84}
+button.next{background-color: #661f88 !important}
+button.login{background-color: #a39fa4}
+button.re{background-color: #c9c9c9}
+div.footer-button.v2 button{width: 33.3%;}
+div.footer-button.v2 button:nth-child(2){left: 33.3%}
+div.footer-button button.full{width: 100%}
+
+button.detail{background: #eeeeee; border: 1px solid #dddddd; height: 25px; width: 80px; border-radius: 3px; color: #4e4e4e}
+div.step-area{padding: 15px 0}
+div.step-area.step-list{/*padding-bottom: 50px*/}
+div.completed-button{margin-top: 45px;text-align: justify; height: 45px}
+div.completed-button button{width: 49%; height: 100%; font-size: 15px; color: #fff; border:0; padding: 0; font-weight: 600}
+div.completed-button button:first-child{float: left;}
+div.completed-button button:last-child{float: right;}
+div.completed-button button.full{width: 100%}
+
+div.about div.completed-button{padding: 0 20px; margin-bottom: 38px}
+
+
+div.login-top button{ font-size: 15px; color: #fff; border:0; padding: 0; height: 45px; margin-top: 10px; width: 90%}
+
+.list.no-hairlines-md{margin-top: 0; margin-bottom: 0}
+.item-input-wrap input{text-align: center; border:0 !important;}
+.half { width: 49%; float: left; margin-top: 5px !important}
+.half.first{margin-right: 2%}
+.item-input-wrap:after{content: '\E5C5';display: block; position: absolute; right:-10px;top: 50%; transform: translateY(-50%); font-family: "Material Icons"; font-size: 25px; color: #000}
+/*<i class="material-icons">
+arrow_drop_down
+</i>*/
+.dialog-backdrop{background: rgba(0,0,0,0.5);}
+
+/*.ios .dialog{border-radius: 0 ;}
+.ios .dialog-inner{border-radius: 0; padding: 50px 0; background: #fff}
+.ios .dialog-button:first-child{border-radius: 0}
+.ios .dialog-button:last-child{border-radius: 0}
+.ios .dialog-button:first-child:last-child{border-radius: 0; color: #fff}
+.dialog-preloader .dialog-inner{background-color: transparent;}
+.dialog-preloader .dialog-title{display: none;}
+.ios .dialog-button{color: #fff}
+.ios .dialog-button:first-child{background: #9b9b9b;}
+.ios .dialog-button:last-child{background: #661f88}
+.dialog-text{font-size: 14px}
+
+.ios .dialog-buttons-vertical .dialog-buttons{padding: 32px; background: #fff; padding-top: 0; padding-bottom: 25px; font-weight: 600}
+.ios .dialog-buttons-vertical .dialog-button:last-child{border-radius: 0;}
+.ios .dialog-buttons-vertical .dialog-button{background: #eeeeee; margin-bottom: 8px; border-radius: 5px; color: #4e4e4e; font-size: 14px}
+.ios .dialog-buttons-vertical .dialog-button.active{background: #4e4e4e; color: #fff}
+.ios .dialog-buttons-vertical .dialog-inner{padding: 20px 0; padding-bottom: 15px}
+.ios .dialog-buttons-vertical .dialog-inner:after{transform: none; transform-origin: 0.0s}
+.ios .dialog-buttons-vertical .dialog-inner:after{display: none; background-color: transparent;}
+.ios .dialog-buttons-vertical .dialog-inner .dialog-title{font-size: 14px; font-weight: normal;}
+.ios .dialog-buttons-vertical .dialog-inner .dialog-text{color: #4d4d4d; font-size: 13px}
+*/
+
+.ios .radio .icon-radio{
+  background: no-repeat center;
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2013%2010'%3E%3Cpolygon%20fill%3D'%238e8e93'%20points%3D'11.6%2C0%204.4%2C7.2%201.4%2C4.2%200%2C5.6%204.4%2C10%204.4%2C10%204.4%2C10%2013%2C1.4%20'%2F%3E%3C%2Fsvg%3E");
+  background-size: 13px 10px;
+  box-shadow: inset 2px 2px 5px -2px rgba(0,0,0,0.3);
+  opacity: 0.3
+}
+.ios .radio input[type=radio]:checked~.icon-radio{background-color: #c8a8cf; opacity: 1.0}
+
+
+.checkbox{margin-right: 5px}
+.ios .checkbox .icon-checkbox{
+  box-shadow: inset 2px 2px 5px -2px rgba(0,0,0,0.3);
+  opacity: 0.5;
+  width: 18px;
+  height: 18px
+}
+.ios .checkbox .icon-checkbox:after{
+  background: no-repeat center;
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2013%2010'%3E%3Cpolygon%20fill%3D'%238e8e93'%20points%3D'11.6%2C0%204.4%2C7.2%201.4%2C4.2%200%2C5.6%204.4%2C10%204.4%2C10%204.4%2C10%2013%2C1.4%20'%2F%3E%3C%2Fsvg%3E");
+  background-size: 12px;
+  opacity: 0.7;
+  margin-left: -6px
+}
+.ios .checkbox input[type=checkbox]:checked~i{background: #c8a8cf; opacity: 1; box-shadow: none;}
+.ios .checkbox input[type=checkbox]:checked~i:after{
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2013%2010'%3E%3Cpolygon%20fill%3D'%23ffffff'%20points%3D'11.6%2C0%204.4%2C7.2%201.4%2C4.2%200%2C5.6%204.4%2C10%204.4%2C10%204.4%2C10%2013%2C1.4%20'%2F%3E%3C%2Fsvg%3E");
+  background-size: 12px;
+  opacity: 1
+
+}
+/* checkbox-size-m */
+
+.ios .checkbox .icon-checkbox.size-m{width: 18px; height: 18px;}
+.ios .checkbox .icon-checkbox.size-m:after{margin-left: -6px}
+/* //radio, checkbox */
+
+
+.ios .badge{width: 31px; height: 31px; font-size: 10px; padding: 0; line-height: 1; padding-top: 6px; background-color: #4a4a4a}
+.list-bottom-margin{margin-bottom: 20px !important}
+.material-icons{color: #000}
+.list .item-content{border:1px solid #e1e1e1;}
+div.Nwagon-wrapper{height: 240px; width: 100%; overflow: hidden;}
+#Nwagon{margin: 0 auto; text-align: center; margin-top: -20px; }
+.Nwagon_radar .foreground circle{display: none;}
+svg{width: 100%}
+g.xAxis{display: none;}
+g.foreground:nth-child(1){fill: red}
+
+/* 공통 */
+input[type="text"]:disabled{background-color: #ececec !important;}
+input[type="text"].left{text-align: left !important;}
+button.btn-accordion {background-color: #4e4e4e; border-radius: 3px; color: #fff;width: auto; height: 25px; font-size: 12px; border:0;}
+button.btn-accordion.light{background-color: #eeeeee; color: #4e4e4e; border: 1px solid #dddddd;}
+.c-popup.b{color: #661f88; font-weight: 600; margin: 0 5px}
+.c-popup.b.red{color: #cd4c2e; margin: 0}
+.required:after{content: '*'; color: #ff0000; margin-left: 5px}
+p.error{font-size: 10px; margin: 0; padding-left: 2px; color: #7e7e7e; margin-bottom: 3px}
+p.help{font-size: 10px; color: #000; margin: 0; margin-top: 3px; padding-left: 2px; word-break: keep-all;}
+hr.type1{height: 1.5px; width: 80%; background-color: #f6f6f6; border: 0; margin-top: 20px; margin-bottom: 20px; border-bottom: 1.5px solid #f6f6f6}
+.preloader-modal{background: transparent;}
+input[type="text"], input[type="password"]{height: 35px; background: #fff; width: 100%; border:1px solid #e1e1e1; padding: 0 10px; font-size: 13px; text-align: center; color: #6d6d6d}
+.ellipsis {
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    word-wrap: normal !important;
+    display: block;
+}
+li.next-line{margin-top: 15px}
+div.letter-space{letter-spacing: 0.5px}
+
+
+
+div.options ul{padding: 0 20px; text-align: center; height: 70px}
+div.options ul.satisfied li div{background-size: 50%}
+div.options ul li{list-style: none; float: left; box-sizing: border-box;}
+div.options ul li div{width: 70px; height: 70px; border-radius: 70px ; border: 5px solid #f5f5f5; background-size: 70%; background-position: center; background-repeat: no-repeat; margin: 0 auto; font-size:13px; 
+}
+div.options ul.two li.product-detail div{background-size: 50%}
+div.options ul.two li.product-detail-text p{text-align: center;; color: #6d6d6d; font-size: 11px; line-height: 15px; margin: 0; text-align: left; }
+div.options ul.two li.product-detail-text p.title{font-size: 13px; color:#606060 ; font-weight: 600; margin-bottom: 3px}
+div.options ul.two li.product-detail-text p button{margin-top: 3px; margin-left: -2px}
+div.options ul.two li.product-detail-text div{width: 100%; text-align: left; border:0;}
+/*div.options ul li div span{margin-top: 80px; display: block; word-break: keep-all; white-space: nowrap;}
+div.options ul li div span.long{margin-left: -10px}*/
+/*div.options ul li.active div{border: 5px solid #666565;}*/
+div.options ul li span{margin-top: 10px; display: block; word-break: keep-all; white-space: nowrap; font-size: 13px}
+div.options ul li div{border: 1px solid #9fa0a0; box-sizing: border-box;}
+div.options ul li p{margin: 0}
+div.options ul li.active > div{border:3px solid #c8a9ce}
+div.options ul.two li{width: 50%}
+div.options ul.two li:nth-child(2):after{content: '';clear: both; display: block; margin-bottom: 20px}
+div.options ul.three li{width: 33.3%}
+div.options ul.three li:nth-child(3):after{content: '';clear: both; display: block; margin-bottom: 20px}
+div.options ul.three.in li span{margin-top: -42px}
+div.options ul.light-line div{border-width: 1px; border-color: #b1b2b2}
+div.options ul.light-line li.active div{border-width: 3px}
+/*div.options{min-height: 200px}*/
+
+div.options ul.small{margin: 0 auto ;margin-top: 20px; width: 135px}
+div.options ul.small li{width: auto}
+div.options ul.small li div{width: 50px; height: 50px; font-size: 12px}
+div.options ul.small li span{font-size: 12px}
+div.options ul.small li:first-child{margin-right: 20px}
+div.options ul.gray li div{border-color: #f5f5f5; border-width: 5px; color: #606060; font-size: 12px}
+div.options ul.gray li.active div{border-color: #959cac; }
+
+
+
+
+
+
+
+
+div.product ul li div{background-size: 40%; background-position: bottom;}
+div.product ul li:last-child div{background-size: 60%; background-position: center;}
+div.discount{min-height: 300px;/* margin-top: 30px*/}
+div.discount ul li div{background-size: 50%}
+
+
+
+
+div.camera{width: 125px; height: 125px; border: 5px solid #f5f5f5; border-radius: 125px; margin: 0 auto; background: url("../images/camera.png") no-repeat center; background-size: 50%}
+p.please-photo{text-align: center; line-height: 20px}
+
+div.photo{display: flex; flex-direction: column; }
+div.photo-area{ padding-top: 20px ; flex:1;}
+div.desc-area{background-color: #f5f5f5; padding: 0 20px; padding-top: 15px; flex: 1}
+div.desc-area.v2{padding: 0 30px;padding-top: 0; background-color: #fff; font-size: 13px}
+div.desc-area ul{padding-left: 10px; line-height: 25px}
+div.desc-area ul li{font-size: 13px; list-style: none}
+div.desc-area p{ text-align: center; word-break: keep-all;}
+
+div.photo-progress{width: 100%; /*isplay: flex;; flex-direction: column;*/ height: 55%; margin-top: 10px}
+div.photo-progress img{width: 100%}
+
+ul.select-ul{padding-left: 0; margin: 0;}
+ul.select-ul li{list-style: none; border: 1px solid #e6e6e6; padding: 0 10px; font-size: 13px; border-radius: 5px; margin-bottom: 5px}
+ul.select-ul li p{margin: 10px 0}
+ul.select-ul li p span{vertical-align: middle; margin-left: 10px; color: #7e7e7e}
+
+div.product-detail{width: 80%; margin: 0 auto; text-align: center;}
+div.product-detail div{display: inline-block; vertical-align: top;}
+div.circle{width: 70px; height: 70px; border-radius: 70px; border: 1px solid #9fa0a0; display: inline-block; margin-right: 15px; background-size: 60%; background-position: bottom; background-repeat: no-repeat;}
+div.product-detail div.detail p{text-align: center;; color: #6d6d6d; font-size: 11px; line-height: 15px; margin: 0; text-align: left; }
+div.product-detail div.detail p.title{font-size: 13px; color:#606060 ; font-weight: 600; margin-bottom: 3px}
+div.product-detail div.detail p button{margin-top: 3px; margin-left: -2px}
+
+div.title.title_text{background: none; text-align: left; padding-top: 25px; padding-left: 10px}
+
+ul.flow {padding: 0; height: 30px; margin-top: 20px}
+ul.flow li{width: 33.3%; float: left; list-style: none; text-align: center; position: relative;}
+ul.flow li:after{content: ''; width: 100%; background: #000; height: 2px; display: block; position: absolute; top: 50%; right: -50%; transform: translateY(-50%); z-index: -2}
+ul.flow li div{background: #000; color: #fff; width: 65px; margin: 0 auto; height: 25px; box-sizing: border-box; padding: 5px; border-radius: 40px; font-size: 11px; font-weight: 600; color: #666666}
+ul.flow li:last-child:after{display: none;}
+ul.flow li div{background-color: #dddddd}
+ul.flow li:after{background-color: #dddddd}
+ul.flow li.active div{background-color: #000; color: #fff}
+ul.flow li.active div:after{content: ''; width: 50%; background: #000; height: 2px; display: block; position: absolute; top: 50%; left:50%;transform: translateY(-50%); z-index: -1}
+ul.flow li:nth-child(2).active div:before, ul.flow li:nth-child(3).active div:before{content: ''; width: 50%; background: #000; height: 2px; display: block; position: absolute; top: 50%; left:0;transform: translateY(-50%); z-index: -1}
+ul.flow li:last-child.active div:after{display: none;}
+
+div.card div.card-row{width: 100%; background: #fff; border-radius: 7px; border:1px solid #eaeaea; position: relative; padding: 15px; box-sizing: border-box; text-align: center; margin-top: 10px; }
+div.card-button-area{position: absolute; right: 15px; top: 15px; }
+div.card-button-area button{width: 20px; height: 20px; background-color: transparent; border: 0; background-repeat: no-repeat; background-position: center; padding: 0}
+div.card-button-area button.i-cart{background-image: url("../images/i-cart.png"); background-size: 70%;}
+div.card-button-area button.i-close{background-image: url("../images/i-close.png"); background-size: 60%;}
+div.card-button-area.v2{top: 10px; right: 10px}
+div.card-button-area.v2.left{left: 10px; right: auto}
+
+div.card div.card-row div.circle{margin: 0 auto; /*margin-top: 18px; */display: block; width: 50px; height: 50px; background-size: 40%; background-position: bottom;}
+div.card div.card-row p{color: #606060; text-align: center; font-size: 13px; margin-bottom: 5px; margin-top: 10px}
+div.card div.card-row p span{color: #000; font-weight: 600}
+div.card div.card-row p.card-detail{color: #252525; font-size: 14px; text-align: left; margin-top: 15px; margin-bottom: 10px}
+div.card div.card-row div.card-select-area{height: 23px; margin-left: -3px}
+div.card div.card-row div.card-select-area button{width: 32%; height: 25px; background-color: #eeeeee; border: 1px solid #dddddd; border-radius: 3px; font-size: 12px; color: #4e4e4e; float: left; margin-left: 3px; font-weight: 600}
+div.card div.card-row div.card-select-area button:first-child{margin-left: 0}
+div.card div.card-row div.card-select-area button.active{background-color: #4e4e4e ; color: #fff; border:0;}
+div.card div.card-row p.sub{color: #7e7e7e; font-size: 11px; text-align: left; line-height: 18px; margin-top: 10px; margin-bottom:0;}
+div.card div.card-row p.price{color: #000; font-weight: 600; text-align: left; margin-bottom: 0; margin-top: 5px}
+div.card div.card-row p.price+p.sub{margin-top: 0;}
+div.card div.card-row p.title{margin-top: 0; color: #000; font-size: 10px; margin-bottom: 15px; letter-spacing: 0; font-weight: 600}
+div.card div.card-row span.space{width: 12px; height: 12px; border-radius: 2px; background-color: #ffc000; display: inline-block; vertical-align: top;margin-top: 2px; margin-left: 3px; margin-right: 3px}
+div.card div.card-row button.btn-complete{width: 115px; height: 25px; background-color: #828b91; color: #fff; font-size: 13px; border-radius: 3px; margin: 5px 0 15px;; font-weight: 600}
+div.card div.card-row div.shipping{margin-top: 10px}
+div.card div.card-row div.shipping p{color: #000; margin: 0; font-size: 11px}
+div.card div.card-row div.shipping button{padding:0 10px; margin:10px 0; margin-bottom: 5px}
+div.card div.card-row div.shipping button.left{margin-right: 2px}
+div.card div.card-row div.shipping p b{color: #661f88;}
+div.card div.card-row div.shipping p.subscribe{font-size: 13px}
+div.card div.card-row div.shipping div.subscribe-button{margin-top: 12px}
+div.card div.card-row div.shipping div.subscribe-button p{margin: 3px 0; font-size: 10px; color: #4e4e4e}
+div.card div.card-row div.shipping div.subscribe-button button{margin: 0; height: 27px; background-color: #661f88; color: #fff; border:0; border-radius: 3px; width: 180px; font-size: 12px; font-weight: 600}
+div.card div.card-row.v2 { padding: 15px; position: relative;}
+div.card div.card-row.v2 p{text-align: left; margin-top: 5px}
+div.card div.card-row.v2 p span{font-weight: 600}
+div.card div.card-row.v2 p.date{margin: 0; font-size: 10px; color: #515151}
+div.card div.card-row.v2 p.title{margin-bottom: 5px;}
+div.card div.card-row.v2 div.shipping{margin-top: 5px; }
+div.card div.card-row.v2 div.shipping div.card-button{position: absolute; right: 15px; top: auto; bottom : 15px;}
+div.card div.card-row.v2 div.shipping div.card-button button{margin: 5px 0; width: 100%; display: block; margin-bottom:0;}
+div.card div.card-row.v2 div.shipping div.card-button button.light{background-color: #eeeeee; color: #4e4e4e; border: 1px solid #dddddd;}
+div.card div.card-row.v2 div.shipping div.card-button.v2{top: 10px}
+div.card div.card-row.v2 div.shipping div.card-button.v2 button{padding: 0 15px}
+
+
+
+div.card div.card-row.v3 div.title{text-align: left; font-size: 12px; color: #7e7e7e}
+div.card div.card-row.v3 div.price{text-align: right; color:#6d6d6d; font-size: 12px; }
+div.card div.card-row.v3 div.price b{font-weight: normal; color: #ff0000; font-size: 18px; vertical-align: middle;}
+
+div.card div.card-row div.card-bottom{padding: 0 10px}
+div.card div.card-row div.card-bottom button.card-select-button{height: 27px; background-color: #eeeeee; border:0; border-radius: 3px; font-size: 12px; color: #fff; width: 50%; background-color: #747e84; margin-top: 10px}
+div.card-out-button{text-align: center; margin-top: 10px}
+div.card-out-button button:first-child{margin-right: 3px}
+div.card-out-button button{height: 25px;width: auto; background-color: #e2e2e2; border: 1px solid #dddddd; color: #4e4e4e; font-size: 11px; border-radius: 3px;}
+
+
+div.product-label{padding: 0 15px}
+div.product-label div.name-area input{background: #fff; border: 1px solid #e1e1e1; height: 33px; width: 100%; text-align: center;}
+div.product-label div.name-area p{text-align: right; margin: 0; margin-bottom: 2px}
+div.product-label div.label-area {margin-top: 22px; height: 230px; background-color: #fff; border: 0.5px solid #e1e1e1; padding: 88px 15px; box-sizing: border-box;}
+div.product-label div.label-area div.name-box{border : 1px solid #918c8a; height: 45px; text-align: center; padding: 10px; box-sizing: border-box; position: relative;}
+div.product-label div.label-area div.name-box:after{content: ''; border: 0.5px solid #c8c5c5; position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: -1}
+div.product-label div.label-area div.name-box span{font-weight: 600; font-size: 10px; margin-right: 10px}
+div.product-label div.label-area div.name-box input {width: 8px; height: auto; border:0; background-color:transparent; padding:0; border-bottom: 1px solid #231916; display: inline-block; font-size: 10px; position: relative; font-weight: 600}
+div.product-label div.label-area div.name-box input:after{content: ''; border:1px solid #918c8a; position: absolute; top: 0; left: 0}
+div.product-label div.label-area div.name-box input:disabled{background-color: transparent !important;}
+
+/*div.accordion-list{border-top: 1px solid #dbdbdb}*/
+div.accordion-list * {box-sizing: border-box; }
+div.accordion-list p{margin: 0 ; font-size: 12px; margin-top: 15px; margin-bottom: 15px}
+div.accordion-item{position: relative;border-bottom: 1px solid #dbdbdb;  }
+div.accordion-item i.i-accordion{position: absolute; right: 15px; color: transparent; height: 48px; top: 0; background-position: center; background-size: 13px}
+div.accordion-item i.add{background-image: url('../images/plus.png');}
+div.accordion-item i.remove{display: none; background-image: url('../images/minus.png');}
+/*div.accordion-item:first-child div.accordion-item-toggle{border-top: 1px solid #dbdbdb; }*/
+div.accordion-item.accordion-item-opened i.add{display: none;}
+div.accordion-item.accordion-item-opened i.remove{display: block;}
+div.accordion-item-toggle{height: 48px; padding: 15px; font-size: 13px}
+div.accordion-item-toggle div b{color: #e60202}
+div.accordion-item-toggle div span{color: #606060}
+div.accordion-item-content{background-color: #f5f5f5; padding: 0 15px}
+div.accordion-item.accordion-item-opened div.accordion-item-content{/*padding-bottom: 15px; padding-top: 15px*/}
+div.accordion-item input[type="text"]{ margin: 5px 0; }
+div.accordion-item input[type="text"]:last-child{margin-bottom: 15px}
+div.accordion-item .card{margin: 0; box-shadow: none;}
+div.accordion-item div.card:first-child div.card-row{margin-top: 15px}
+div.accordion-item div.card:last-child div.card-row{margin-bottom: 15px}
+div.accordion-item div.user-info{color: #6d6d6d;}
+div.accordion-item div.user-info p{margin: 0; font-size: 11px; letter-spacing: 0; }
+div.accordion-item div.user-info p:first-child{margin-top: 15px}
+div.accordion-item div.address {color: #6d6d6d; position: relative; }
+div.accordion-item div.address p.address-info{font-size: 11px; margin-bottom: 0}
+div.accordion-item div.address div.address-same{position: absolute; right: 0; top: 0; font-size: 10px}
+/*div.accordion-item div.address div.address-same .checkbox input[type=checkbox]:checked~i:after, 
+div.accordion-item div.address div.address-same label.item-checkbox input[type=checkbox]:checked~.icon-checkbox:after{background-size: 10px 6px; margin-top: -5px; margin-left: -5px; border:0;}*/
+div.accordion-item div.coupon p{margin: 0; font-size: 11px; color: #6d6d6d; margin-bottom: 7px; font-weight: 600; margin-top: 15px}
+div.accordion-item div.coupon p.error{margin-top: 0px; margin-bottom: 15px; color: #7e7e7e; font-weight: normal;}
+div.accordion-item div.coupon input[type="text"]{width: 80%; display: inline-block; vertical-align: top; margin: 0; margin-bottom: 5px}
+div.accordion-item div.coupon button{width: 18%; height: 34px; display: inline-block; float: right; vertical-align: top;}
+div.accordion-item div.order-price{background-color: #fff; padding: 10px 0; text-align: center; color: #6d6d6d; font-size: 12px; border: 1px solid #e1e1e1; border-radius: 5px; margin-top: 15px}
+div.accordion-item div.order-price b{font-size: 18px; color: #e60202; vertical-align: middle;}
+div.accordion-item div.order-details{margin-top: 10px}
+div.accordion-item div.order-details p{margin: 0; font-size: 12px; color: #6d6d6d}
+div.accordion-item div.order-details p b{color: #000}
+div.accordion-item div.order-details p:last-child{margin-bottom: 15px}
+ul.agree-list{list-style: none; padding: 0; margin-top: 15px; margin-bottom: 3px}
+ul.agree-list li{height: 30px; border-bottom: 1px solid #eaeaea; color: #6d6d6d; padding: 8px 0; font-size: 11px; position: relative; box-sizing: border-box;}
+ul.agree-list li label{background: #fff; border-radius: 20px;}
+/*ul.agress-list li label.checkbox i{width: 17px; height: 17px; background-size: 10px 6px !important}
+ul.agress-list li label.checkbox input[type=checkbox]:checked~i:after, label.item-checkbox input[type=checkbox]:checked~.icon-checkbox:after{ background-size: 10px 6px; margin-top: -5px; margin-left: -6px; border:0;}*/
+ul.agree-list li label i{border:1px solid;}
+ul.agree-list li button{height: 20px; width: 65px; position: absolute; right: 0; top: 50%; transform: translateY(-50%); font-size: 11px; background: #eeeeee; border: 1px solid #dddddd; color: #4e4e4e}
+ul.agree-list li span{vertical-align: middle;}
+
+div.completed{background-color: #fff; padding-left: 20px; padding-right: 20px}
+div.completed div.div-completed{width: 100px; height: 100px; border-radius: 100px; background-color: #f5f5f5; margin: 0 auto; background-image: url('../images/check.png'); background-repeat: no-repeat; background-position: center; background-size: 60%; margin-top: 60px; margin-bottom: 50px}
+div.completed div.div-completed.id-search-success{background-image: url('../images/id_search_success.png'); background-position: 30px 25px; background-size: 45%}
+div.completed div.div-completed.id-search-fail{background-image: url('../images/id_search_fail.png'); background-position: 30px 25px; background-size: 45%}
+div.completed div.div-completed.password{background-image: url('../images/password.png'); background-position: 30px 25px; background-size: 45%}
+div.completed div.div-completed.letter{background-image: url('../images/letter.png'); margin-bottom: 30px}
+div.completed div.div-completed.letter.open{background-image: url('../images/letter_open.png');}
+div.completed h1{text-align: center; font-weight: normal; color: #606060; font-size: 14px; margin-bottom: 20px};
+div.completed h1 b{color: #000}
+div.completed p{text-align: center; font-size: 14px; font-weight: normal; margin: 0 auto; word-break: keep-all; color: #606060; padding: 0 35px}
+div.completed p b{font-weight: 600; color: #661f88}
+div.completed p b.name{color: #000}
+div.completed p.long{padding: 0; font-size: 12px}
+div.completed p.email{font-size: 12px; font-weight: 600; margin-bottom: 20px}
+
+
+
+div.recommend-button-area{text-align: center; margin-bottom: 17px}
+div.recommend-button-area button:first-child{margin-right: 3px;}
+div.recommend-button-area button{width: auto; height: 21px; background: #eeeeee; border: 1px solid #dddddd; color: #4e4e4e; font-size: 11px; border-radius: 3px; font-weight: 600}
+div.recommend span.recommend-check{margin-left: 3px; vertical-align: middle;}
+div.recommend button.recommend-button{width: auto; margin-left: 3px; border: 0; border-radius: 3px; font-size: 10px; height: 18px; vertical-align: middle; color: #fff}
+div.recommend button.recommend-button.gold{background-color: #ffc000}
+div.recommend button.recommend-button.silver{background-color: #c9c9c9}
+div.recommend div.accordion-item-content{color: #6d6d6d}
+div.recommend div.help{padding: 15px; font-size: 12px; color: #7e7e7e}
+
+div.recommend-tab ul{padding: 0 25px; height: 55px; }
+div.recommend-tab ul li{width: 25%; float: left; list-style: none; text-align: center; position: relative; height: 100%}
+div.recommend-tab ul li div{position: absolute; left: 50%; transform: translateX(-50%); }
+div.recommend-tab ul li div.title{width: 55px; height: 55px; border-radius: 55px; border: 1px solid #9fa0a0; margin: 0 auto; padding-top: 18px; box-sizing: border-box; font-size: 12px; z-index: 1}
+div.recommend-tab ul li div.bg{width: 55px; height: 55px;border-radius: 55px;background-repeat: no-repeat;background-size: 66%; background-position: center; opacity: 0.5; z-index: 0; }
+div.recommend-tab ul li.active div.title{border:3px solid #c8a9ce;}
+
+div.recommend-tab-detail ul{padding: 0; margin-top: 25px}
+div.recommend-tab-detail ul li{display: none}
+div.recommend-tab-detail ul li.active{display: block}
+div.recommend-tab-detail ul li > p.help{font-size: 12px; color: #666666; text-align: center;}
+
+
+/* login */
+div.login-top{background-color: #f5f5f5; text-align: center; padding: 15px 0; color: #606060; font-size: 12px; border-bottom: 1px solid #dbdbdb; }
+div.login-area{padding: 20px}
+div.login-area input[type="text"],div.login-area input[type="password"]{margin-bottom: 10px}
+div.login-area div.save > span{margin-right: 10px}
+div.login-area div.save > span label{margin-right: 5px}
+div.login-area div.save span span{color: #6d6d6d; font-size: 13px}
+button.btn-login{height: 45px; border: 0; background-color: #c9c9c9; font-size: 15px; color: #fff; margin-top: 15px}
+button.btn-login.on{background-color: #661f88;}
+div.login-area ul.login-menu{padding: 0; text-align: center; margin-bottom: 30px}
+div.login-area ul.login-menu li{list-style: none; display: inline-block; color: #6d6d6d}
+div.login-area ul.login-menu li:after{content: '|';  margin:0 10px;}
+div.login-area ul.login-menu li:last-child:after{display: none;}
+div.login-area button.btn-sns{height: 40px; background-color: #f5f5f5; color: #6c6c6c; border: 1px solid #e1e1e1; margin-bottom: 10px}
+div.login-area button.btn-sns div{width: 65%; margin: 0 auto; text-align: left;}
+div.login-area button.btn-sns div img{width: 25px; height: 25px; vertical-align: middle; margin-right: 12px}
+div.login-area button.btn-sns div span{font-size: 13px; vertical-align: middle;}
+div.login-area div.help-error{height: 50px}
+div.login-area div.help-error p{font-size: 10px; padding-left: 5px; margin: 0; }
+div.login-area div.help-error p.error{display: none}
+div.login-area div.help-error p.error.on{display: block;}
+div.login-area div.completed-button{margin-top: 0;}
+
+div.join h1{margin: 0; background-color: #fff; font-size: 13px; padding-left: 15px; height: 50px; font-weight: normal; padding-top: 17px; box-sizing: border-box;}
+div.join div.completed-button{padding:15px;background-color: #fff; margin-top: 0}
+div.join div.completed-button button{margin-bottom: 20px; }
+div.join-area{padding: 15px; background-color: #f5f5f5}
+div.join-area div.input-area{height: 35px; margin-bottom: 5px}
+div.join-area input[type="text"],div.join-area input[type="password"]{margin-bottom: 5px}
+div.join-area input[type="text"].email{width:78%; display: inline-block; vertical-align: middle;}
+div.join-area button.duplication{width: 20%; float: right; height: 100%}
+div.join-area button.address{margin-bottom: 5px}
+div.join-area ul.agress-list{margin-top: -3px}
+
+div.agree h1{color: #222222; font-size: 14px; margin-bottom: 25px; margin-top: 25px}
+div.agree h2{margin:0;margin-bottom: 3px; font-size: 12px; font-weight: normal;}
+div.agree p{font-size: 12px; margin: 0; margin-bottom: 10px; word-break: keep-all;}
+
+div.list-title.date{margin-top: -5px}
+div.list-title span{display: block; font-size: 14px}
+div.list-title span.date{font-size: 11px; color: #7e7e7e}
+div.list-title span.title{width: 80%}
+div.customer-list div.accordion-item-content div.customer-photo{height: 135px; background: #fff;margin-top: 15px}
+div.customer-list div.accordion-item-content p{font-size: 11px; color: #6d6d6d;; margin-bottom: 15px; margin-top: 15px}
+
+div.customer-empty{flex: 1; text-align: center;  }
+div.customer-empty div{height: 100%; position: relative;}
+div.customer-empty div p{font-size: 14px; color: #010101; position: absolute; margin: 0; left: 50%; top: 50%; transform: translate(-50%, -50%); width: 100%}
+div.question-list div.list{margin: 0}
+div.question-list div.list ul:before{display: none;}
+div.question-list div.list ul:after{display: none;}
+div.question-list div.list div.list-title.date{margin-top: 0}
+
+div.question-list div.list .item-content{border-top: 0}
+div.question-list div.list .item-inner{min-height: 50px}
+div.question-list div.list .item-inner:after{display: none;}
+div.question-list div.list .item-media+.item-inner{margin-left: 0}
+span.badge:after{content:'답변\A완료'; white-space: pre;}
+span.badge.active{padding-top: 11px; background-color: #bdbdbd}
+span.badge.active:after{content: '대기중';}
+
+div.question-detail * {box-sizing: border-box;}
+div.question-detail div.list-title.title{min-height: 50px; border-bottom: 1px solid #dbdbdb; padding:10px 15px; position: relative; padding-left: 50px}
+div.question-detail a{width: 25px; height: 25px; border-radius: 25px;background-color: #bdbdbd; display: inline-block;  padding: 3px 7px; position: absolute; top: 12px; left: 15px}
+div.question-detail a:after{content: 'Q'; font-size: 15px; color: #fff;}
+div.question-detail a.answer{ background-color: #4a4a4a; left: 0}
+div.question-detail a.answer:after{content: 'A';}
+div.question-detail div.detail{padding: 15px; /*border-bottom: 1px solid #dbdbdb*/}
+
+div.question-detail div.detail p{color: #4d4d4d; font-size: 13px; margin: 0; padding-left: 35px}
+
+div.question-detail div.answer{position: relative; border-top: 1px solid #eaeaea; margin-top: 15px; padding-top: 15px; padding-bottom: 50px}
+div.question-detail div.answer div.answer-contents{padding-left: 35px; color: #4d4d4d}
+div.question-detail div.answer div.answer-contents div.title span{display: none; margin-left: 5px; color: #7e7e7e; font-size: 10px}
+div.question-detail div.answer div.answer-contents div.title:before{content: '답변 대기중입니다.'}
+div.question-detail div.answer div.answer-contents div.title.answer-completed span{display: inline-block;}
+div.question-detail div.answer div.answer-contents div.title.answer-completed:before{content: '답변완료'; font-weight: 600;}
+div.question-detail div.answer div.answer-contents div.answer-detail p{padding: 0; margin-top: 15px}
+/*answer-completed*/
+
+div.write div.write-area{padding: 0 15px; display: flex; flex-direction: column; height: 100%}
+div.write div.title{margin-top: 15px; padding: 0 15px; margin-bottom: 10px}
+div.write div.title input[type="text"]{text-align: left;}
+div.write div.contents{flex: 1; padding: 0 15px; margin-bottom: 15px }
+div.write div.footer-button{position: static;}
+textarea{border:1px solid #e1e1e1; height: 100%; width: 100%; color: #6d6d6d; font-size: 12px; padding: 10px}
+
+
+.ios .toolbar-inner{padding: 0}
+.ios .tabbar a, .ios .tabbar-labels a{font-size: 14px; color: #000}
+.ios .tabbar a.tab-link-active, .ios .tabbar-labels a.tab-link-active{font-weight: 600; color:#000; border-bottom: 2px solid #661f88; padding-top: 4px}
+.ios .tabbar a, .ios .tabbar-labels a{border-bottom : 1px solid #dbdbdb;}
+div.mypage div.toolbar{height: 40px; background-color: #fff; /*border-bottom: 1px solid #dbdbdb;*/}
+div.mypage div.tab{padding-top: 0 !important; padding-bottom: 0 !important}
+div.mypage div.mypage-tab{padding: 0 15px; padding-bottom: 15px !important}
+div.mypage div.mypage-tab div.card-button{position: absolute;right: 15px; top: 15px}
+div.mypage div.accordion-item:first-child div.accordion-item-toggle{border-top: 0}
+div.mypage div.accordion-item div.accordion-item-toggle span{}
+
+ul.diagnosis-list{height: 75px; padding: 0; margin: 0}
+ul.diagnosis-list li{width: 20%; float: left; list-style: none; text-align: center;}
+ul.diagnosis-list li div{width: 40px; height: 40px; border-radius: 40px; border: 1px solid #a5a6a6; margin: 0 auto; background-size: contain; background-position: center; background-repeat: no-repeat;}
+ul.diagnosis-list li p{ margin: 0; margin-top: 5px; font-size: 12px !important; color:#252525;  text-align: center !important;}
+ul.diagnosis-list li:nth-child(1) div{background-image: url("../images/mypage1.png");}
+ul.diagnosis-list li:nth-child(2) div{background-image: url("../images/mypage2.png");}
+ul.diagnosis-list li:nth-child(3) div{background-image: url("../images/mypage3.png"); background-size: 50%}
+ul.diagnosis-list li:nth-child(4) div{background-image: url("../images/mypage4.png"); background-size: 50%}
+ul.diagnosis-list li:nth-child(5) div{background-image: url("../images/mypage5.png");}
+
+div.mypage-top{height: 73px; padding: 28px; border-bottom:1px solid #dbdbdb; box-sizing: border-box; text-align: center; font-size: 16px; background-color: #fff}
+div.mypage-order-list div.accordion-item-content p{color: #6d6d6d; font-size: 11px; margin: 0; padding: 0}
+div.mypage-order-list div.accordion-item-content h1{font-size: 11px; font-weight: 600; color: #6d6d6d; margin: 0 ; margin-top: 15px}
+div.mypage-order-list div.accordion-item-content h1:first-child{margin-top: 0}
+
+div.mypage-order-list div.accordion-item-content div.auto-login{color: #6d6d6d; position: relative;}
+div.mypage-order-list div.accordion-item-content div.auto-login:first-child{margin-bottom: 15px;}
+div.mypage-order-list div.accordion-item-content div.auto-login button{position: absolute; right: 0; top: -5px; width: 80px}
+div.mypage-order-list div.accordion-item-content div.auto-login h2{font-size: 11px; font-weight: 600; margin: 0;}
+div.mypage-order-list div.accordion-item-content div.auto-login label{position: absolute; right: 0; top: 0; width: 80px; margin-right: 0}
+div.mypage-order-list div.accordion-item-content div.auto-login label input{margin: 0 auto}
+div.mypage-order-list div.accordion-item-content div.marketing{position: relative; border-bottom: 1px solid #eaeaea; padding-bottom: 10px; margin-bottom: 5px}
+div.mypage-order-list div.accordion-item-content div.marketing span{color: #6d6d6d; font-size: 11px}
+div.mypage-order-list div.accordion-item-content div.marketing button{position: absolute; right: 0; top: -5px; width: 65px}
+div.mypage-order-list div.accordion-item-content p.marketing-help{padding: 0 10px}
+div.mypage-order-list div.list-title span.title{color: #000}
+
+div.mypage-order-list div.mypage-detail{border-bottom: 1px solid #dbdbdb}
+div.mypage-order-list div.mypage-detail div.auto-login{color: #6d6d6d; position: relative;}
+div.mypage-order-list div.mypage-detail div.auto-login:first-child{margin-bottom: 15px;}
+div.mypage-order-list div.mypage-detail div.auto-login button{position: absolute; right: 0; top: -5px; width: 80px}
+div.mypage-order-list div.mypage-detail div.auto-login h2{font-size: 11px; font-weight: 600; margin: 0;}
+div.mypage-order-list div.mypage-detail div.auto-login label{position: absolute; right: 0; top: 0; width: 80px; margin-right: 0}
+div.mypage-order-list div.mypage-detail div.auto-login label i{margin: 0 auto}
+div.mypage-order-list div.mypage-detail div.marketing{position: relative; border-bottom: 1px solid #eaeaea; padding-bottom: 10px; margin-bottom: 5px}
+div.mypage-order-list div.mypage-detail div.marketing span{color: #6d6d6d; font-size: 11px}
+div.mypage-order-list div.mypage-detail div.marketing button{position: absolute; right: 0; top: -5px; width: 65px}
+div.mypage-order-list div.mypage-detail p.marketing-help{padding: 0 10px}
+div.mypage-order-list div.mypage-detail p{color: #6d6d6d; font-size: 11px; margin: 0; padding: 0}
+div.mypage-order-list div.mypage-title{height: 48px; padding: 15px; font-size: 13px}
+div.mypage-order-list div.mypage-contents{background-color: #f5f5f5; padding: 15px}
+div.mypage-order-list div.mypage-contents div.order-detail{margin: 0}
+
+
+
+div.cart-area{padding: 15px; padding-top: 5px}
+div.cart-area p.error{margin-top: 5px}
+
+div.peedback-area{padding: 15px; padding-top: 5px}
+div.peedback-list{background-color: #fff}
+
+div.recommend-list{margin-top: 15px}
+
+div.survey{background-color: #fff}
+div.survey-top{height: 87px; border-bottom: 1px solid #dbdbdb; padding: 15px; box-sizing: border-box; position: relative;}
+div.survey-top p{margin: 0; color: #252525; font-size: 11px}
+div.survey-top p b{color: #661f88}
+div.survey-top p.title{font-size: 10px; font-weight: 600; color: #515151}
+div.survey-top p span{color: #000; font-size: 12px; font-weight: 600}
+div.survey-top div.circle{width: 54px; height: 54px; border-radius: 54px; /*border: 3px solid #f5f5f5;*/ position: absolute; right: 10px; top: 15px; background-size: 40%}
+div.survey-detail{padding: 15px 0}
+div.survey-detail h1{font-size: 15px; font-weight: 300; text-align: center; margin-top: 15px; margin-bottom: 45px}
+div.survey-detail h1.select-ul-h1{margin-bottom: 30px;}
+div.survey-detail h1.select-ul-h1 span{color: #7e7e7e}
+div.survey-detail div.text-length{color: #606060; text-align: right; font-size: 10px; margin-top: -15px; margin-bottom: 5px}
+div.survey-detail div.text-length b{color: #000; }
+div.survey-detail textarea{height: 240px; font-size: 13px}
+
+div.login-update{background-color: #fff}
+div.login-update-list > ul{padding: 0; margin: 0}
+div.login-update-list > ul > li{min-height: 48px; border-bottom: 1px solid #dbdbdb; font-size: 13px; padding: 15px; box-sizing: border-box;}
+div.login-update-list > ul > li.birthday{text-align: center; padding: 7px 15px}
+div.login-update-list > ul > li.birthday .list.no-hairlines-md{display: inline-block; }
+div.login-update-list > ul > li.birthday .list.no-hairlines-md:nth-child(1){width: 110px;}
+div.login-update-list > ul > li.birthday .list.no-hairlines-md:nth-child(2){width: 84px; margin: 0 3px}
+div.login-update-list > ul > li.birthday .list.no-hairlines-md:nth-child(3){width: 84px}
+div.login-update-list > ul > li.birthday .list.no-hairlines-md ul:before{display: none;}
+div.login-update-list > ul > li.birthday .list.no-hairlines-md ul:after{display: none}
+div.login-update-list > ul > li.birthday .list.no-hairlines-md .item-content{height: 33px; min-height: auto; padding: 0}
+div.login-update-list > ul > li.birthday .list.no-hairlines-md .item-content .item-inner{height: 100%; min-height: auto; padding: 0}
+div.login-update-list > ul > li.birthday .list.no-hairlines-md .item-content .item-inner .item-input-wrap{height: 33px; min-height: auto; margin: 0}
+div.login-update-list > ul > li.birthday .list.no-hairlines-md .item-content .item-inner .item-input-wrap input{height: 100%; background-color: transparent; font-size: 13px; color: #606060; font-weight: normal;}
+div.login-update-list > ul > li.birthday .list.no-hairlines-md .item-content .item-inner .item-input-wrap:after{right: 0}
+div.login-update-list > ul > li p.error{margin-bottom: 0; margin-top: 5px}
+div.login-update-list > ul > li.input{padding: 7px 15px}
+div.login-update-list > ul > li.input input{margin-top: 5px}
+
+div.menu{background-color: #fff;}
+div.menu p{margin: 0; box-sizing: border-box;}
+div.menu-top{height: 112px; box-sizing: border-box; padding: 30px 0;}
+div.menu-top p{font-size: 14px; color: #000; text-align: center; line-height: 1.8; font-weight: 600; /*margin: 30px 0*/}
+div.menu ul{padding: 0; margin: 0}
+div.menu ul li:first-child{border-top: 1px solid #dbdbdb}
+div.menu ul li{min-height: 40px; border-bottom: 1px solid #dbdbdb; box-sizing: border-box;}
+div.menu ul li div{padding: 10px 15px;}
+div.menu ul li.click{background-image: url("../images/menu_click.png"); background-repeat: no-repeat; background-position: right 15px center; background-size: 8px }
+div.menu ul li ul{padding: 0; margin: 0}
+div.menu ul li ul li{list-style: none; background-color: #f5f5f5}
+div.menu ul li ul li:last-child{border-bottom: 0}
+div.menu ul li ul li div{padding-left: 25px}
+div.menu div.login-setting{padding: 20px 10px}
+div.menu div.login-setting div{display: inline-block; background-repeat: no-repeat;  background-position: left center;font-size: 13px; font-weight: 600}
+div.menu div.login-setting div.login{ margin-right: 10px;}
+div.menu div.login-setting div:before{content: ''; display: inline-block; height: 20px; width: 20px;background-size: contain; background-repeat: no-repeat; vertical-align: middle;}
+div.menu div.login-setting div.login:before{background-image: url("../images/login.png");}
+div.menu div.login-setting div.setting:before{background-image: url("../images/setting.png"); margin-right: 3px}
+div.menu-list{padding: 0}
+div.menu-list ul{height: 100%; padding: 0 15px}
+div.menu-list ul li{width: 25%; float: left; border: 0; height: 100%; padding-top: 20px; list-style: none;}
+div.menu-list ul li:first-child{border-top: 0}
+div.menu-list ul li div{border-radius: 50px; width: 50px; height: 50px; background-color: #f5f5f5; padding: 0; margin: 0 auto; background-repeat: no-repeat; background-size: 40%; background-position: center;}
+div.menu-list ul li:nth-child(1) div{background-image: url("../images/menu_1.png");}
+div.menu-list ul li:nth-child(2) div{background-image: url("../images/menu_2.png");}
+div.menu-list ul li:nth-child(3) div{background-image: url("../images/menu_3.png");}
+div.menu-list ul li:nth-child(4) div{background-image: url("../images/menu_4.png");}
+div.menu-list ul li span{text-align: center; display: block; margin-top: 8px; font-size: 12px; font-weight: 600}
+
+.swiper-container{height: 400px}
+.swiper-slide{height: 100%; background-color: #d2b3c8}
+.ios .swiper-button-next, .ios .swiper-button-prev{width: 17px; height: 25px; background-size: contain;}
+.ios .swiper-button-next{background-image: url('../images/swiper_next.png');}
+.ios .swiper-button-prev{background-image: url('../images/swiper_prev.png');}
+.swiper-pagination-bullet{background-color: #fff; width: 13px; height: 3px; border-radius: 0; opacity: 1}
+.ios .swiper-pagination-bullet-active{background-color: #67188a; width: 30px}
+.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet{/*margin: 0 7px*/}
+div.main{background-color: #fff}
+div.main *{margin: 0; padding:0; box-sizing: border-box; text-align: center;}
+div.main li{list-style: none;}
+div.main h1{font-size: 18px; font-weight: normal; font-family: 'NanumSquare', lato;}
+div.main h2{font-size: 14px;color: #424242; font-weight: normal; margin-top: 15px}
+div.main div.contents{padding: 33px 0;}
+div.main div.contents.area1{background-color: #f5f5f5;}
+div.main div.contents div.main-image{height: 225px; background-image: url("../images/main_img.png"); background-size: contain; background-repeat: no-repeat;background-position: center; margin-top: 15px}
+div.main div.contents div.main-image.v2{background-image: url("../images/main_img2.png");  height: 260px}
+div.main div.contents div.main-image.v3{height: 220px; background-image: url("../images/main_img3.png");}
+div.main div.contents.area1 p{font-size: 14px; color: #222222; text-align: left; width: 290px; margin: 0 auto; margin-top: 10px}
+div.main div.contents.area1 ul{width: 290px; margin: 0 auto}
+div.main div.contents.area1 ul li{text-align: left; text-indent: -15px}
+div.main div.contents.area1 ul li:before{font-size: 20px; font-style: italic; font-weight: bolder; margin-right: 8px; color: #86469b; opacity: 0.5;}
+div.main div.contents.area1 ul li:nth-child(1):before{content: '1'}
+div.main div.contents.area1 ul li:nth-child(2):before{content: '2'}
+div.main div.contents.area1 ul li:nth-child(3):before{content: '3'}
+div.main div.contents.area1 ul li:nth-child(4):before{content: '4'}
+div.main div.contents.area1 ul li:nth-child(5):before{content: '5'}
+div.main div.contents.area1 ul li span{font-size: 10px; position: relative; letter-spacing: -0.6px}
+div.main div.contents.area1 ul li span:after{content: ''; width: 100%; display: block; height: 1px; background-color: #d8c7de; position: absolute; left: 0; bottom: -3px}
+div.main div.contents.area1 button{width: 90px; height: 25px; background-color: #67188a; color: #fff; border:0; font-size: 10px; margin-top: 20px}
+div.main div.contents.area3 h2{text-align: left; width: 200px; margin: 0 auto}
+div.main div.contents.area3 p{width: 200px; text-align: left;; margin: 0 auto; font-size: 10px}
+
+div.main div.contents a{width: 65px; height: 65px; border-radius: 65px; background-color: #616161; display: block; margin: 0 auto; padding: 10px 0; font-size: 12px; margin-top: 15px}
+div.main div.contents a.list-icon{width: 27px; height: 10px; background-image: url("../images/main_list.png"); background-size: contain; border-radius: 0; background-repeat: no-repeat; background-color: transparent;}
+div.main div.contents a i{color: #fff; font-size: 20px}
+div.main div.contents a div{color: #fff;}
+div.main div.contents img{width: 100%; margin-top: 15px}
+div.main div.contents img.phone{width: auto; height: 335px}
+div.main div.contents.area3{background-color: #f5f5f5}
+div.main div.contents ul.logo-list {height: 235px; margin-top: 30px; padding: 0 15px}
+div.main div.contents ul.logo-list li{width: 50%; height: 100px; float: left;}
+div.main div.contents ul.logo-list li div{background-size: contain; background-repeat: no-repeat; background-position: center; margin: 0 auto; height: 100%}
+div.main div.contents ul.logo-list li:nth-child(1) div{background-image: url("../images/logo_1.png"); }
+div.main div.contents ul.logo-list li:nth-child(2) div{background-image: url("../images/logo_2.png"); }
+div.main div.contents ul.logo-list li:nth-child(3){margin-top: 33px}
+div.main div.contents ul.logo-list li:nth-child(3) div{background-image: url("../images/logo_3.png");}
+div.main div.contents ul.logo-list li:nth-child(4){margin-top: 33px}
+div.main div.contents ul.logo-list li:nth-child(4) div{background-image: url("../images/logo_4.png");}
+div.main div.contents.play{padding-bottom: 0}
+div.main div.contents.play div{height: 160px; background-color: #d0b9a4; margin-top: 33px; }
+div.main div.login-after{height: 90px; border-bottom: 1px solid #000; padding: 33px}
+div.main div.login-purchase{height: 285px; background-color: #f5f5f5; padding: 15px}
+div.main div.login-purchase div.login-purchase-card{background-color: #fff; height: 210px; border:1px solid #d0d0d0;border-top: 2px solid #67188a}
+div.main div.login-purchase button.btn-purchase{width: 90px; border: 1px solid #8f8f8f; height: 25px; background-color: transparent; font-size: 10px; margin-top: 20px}
+div.main div.login-purchase div.card div.card-row{border-radius: 0; width: 100%; height: 100%; margin: 0; border:0; padding: 0}
+div.main div.login-purchase div.card div.card-row p.title{margin-top: 15px; margin-bottom: 10px}
+div.main div.login-purchase div.card div.card-row div.shipping button{background-image: url("../images/purchase.png"); background-repeat: no-repeat; background-position: right 5px center; background-size: 12%; width: 85px; font-size: 10px; background-color: #000; padding-right: 17px; font-weight: 600}
+div.main div.login-purchase div.login-purchase-card.v2{padding-top: 40px}
+div.main div.login-purchase div.login-purchase-card.v2 div.circle{background-size: 10%; background-position: center;}
+iframe{width: 100%; height: 100%}
+
+div.main div.contents ul.question-list{padding: 0 15px}
+div.main div.contents ul.question-list li{border: 1px solid #d0d0d0; border-radius: 5px; height: 35px; text-align: left; margin-bottom: 5px; padding: 8px 15px; color: #222222; font-size: 13px}
+
+div.main div.contents.review{background-color: #f5f5f5; padding-bottom: 13px}
+div.main div.contents.review button{margin-top: 25px; background-color: #67188a; color: #fff; height: 25px; width: 225px; border:0; border-radius: 5px; font-size: 10px}
+div.main div.contents ul.review-list{height: 300px; margin-top: 33px}
+div.main div.contents ul.review-list li{width: 49%; float: left; height: 150px;}
+div.main div.contents ul.review-list li:nth-child(1){margin-right: 1%}
+div.main div.contents ul.review-list li:nth-child(3){margin-right: 1%; margin-top: 1%}
+div.main div.contents ul.review-list li:nth-child(4){margin-top: 1%}
+div.main div.contents ul.review-list li > div{width: 100%; height: 100%; background-position: center; background-size: cover; position: relative; background-repeat: no-repeat;}
+div.main div.contents ul.review-list li > div div.id{padding-top: 7px; font-weight: 600}
+/*div.main div.contents ul.review-list li > div div.id{position: absolute;left: 0; top: 0; height: 33px; border-bottom: 1px solid rgb(0,0,0,0.3); width: 100%; background-color: #fff; opacity: 0.8;  padding: 10px; font-size: 12px; padding-left: 35px; text-align: left; }
+div.main div.contents ul.review-list li > div div.id:after{
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px; 
+    background-color: #fff;
+    left:10px;
+    bottom: -6px;
+    transform: rotate(45deg);
+    border-bottom:1px solid rgb(0,0,0,0.3);
+    border-right: 1px solid rgb(0,0,0,0.3);
+    z-index: 1;
+}*/
+div.main div.contents ul.review-list li > div div.id:before{display: block; content: ''; width: 23px; height: 23px; background-size: contain; z-index: 2; position: absolute; left: 5px; top: 5px; background-repeat: no-repeat;}
+div.main div.contents ul.review-list li.instar > div div.id:before{ background-image: url("../images/sns_1.png");}
+div.main div.contents ul.review-list li.facebook > div div.id:before{ background-image: url("../images/sns_2.png");}
+
+
+
+div.result{background-color: #fff; }
+div.graph{width: 145px; position: relative; margin : 0 auto ;}
+div.graph div.box-row{height: 16px}
+div.graph div.box-row span{width: 13px; height: 15px;display: inline-block; margin-right: 1px; margin-bottom: 1px; position: relative;}
+div.graph div.box-row span p{position: absolute; z-index: 999; width: 100px; font-size: 10px; text-align: text; bottom: -30px; left: 50%; transform: translateX(-50%);}
+div.graph div.box{display: inline-block;}
+div.graph div.box.v1{margin-right: 2px}
+div.graph div.box.v1 span{ background: #ebf1de; }
+div.graph div.box.v1 span.active{}
+div.graph div.box.v2 span{ background: #e6e0ec; }
+div.graph div.box.v2 span.active{background: #7030a0}
+div.graph hr{display: block; border:none ;margin: 0; position: absolute;}
+div.graph hr.h{width: 100%;border-bottom: 1px solid #bfbfbf;  top: 65px}
+div.graph hr.v{width: 1px; height: 100%; left: 70px; top: -2px; border-right: 1px solid #bfbfbf}
+
+div.result-contents{padding: 15px; text-align: center;}
+div.result-contents div.completed-button{margin-top: 15px}
+div.graph-wrapper{position: relative; display: inline-block; margin-top: 20px}
+div.graph-wrapper ul.title{padding: 0; margin: 0}
+div.graph-wrapper ul.title li{list-style: none; position: absolute; font-size: 11px}
+div.graph-wrapper ul.title li:nth-child(1){top: -20px; left: 50%; transform: translateX(-50%);}
+div.graph-wrapper ul.title li:nth-child(2){top: 50%; left:-45px; transform: translateY(-50%);}
+div.graph-wrapper ul.title li:nth-child(3){top: 50%; right:-45px; transform: translateY(-50%);}
+div.graph-wrapper ul.title li:nth-child(4){bottom: -20px; left: 50%; transform: translateX(-50%);}
+div.graph-wrapper+ul.type{padding: 0; margin-top: 30px}
+div.graph-wrapper+ul.type li{list-style: none; vertical-align: middle; display: inline-block; font-size: 10px}
+div.graph-wrapper+ul.type li:first-child{margin-right: 8px}
+div.graph-wrapper+ul.type li:last-child:before{background-color: #e6e0ec}
+div.graph-wrapper+ul.type li:before{content: ''; width: 15px; height: 15px; background: #ebf1de; display: inline-block; vertical-align: middle; margin-right: 5px}
+
+
+ul.accessibility{display: none;}
+.Nwagon_radar .foreground polyline.polygon{opacity: 0.8}
+
+div.result-contents-area{background-color: #f5f5f5; padding: 15px}
+div.result-contents-area hr{border:0; border-bottom: 1px solid #000; margin: 15px 0}
+div.result-contents-area h1{font-size: 14px; margin: 0; text-align: center; font-weight: normal;}
+div.result-contents-area table{width: 100%}
+div.result-contents-area table tr{height: 40px}
+div.result-contents-area table tr td{color: #000; font-size: 12px}
+div.result-contents-area table tr td div{color: #606060; font-size: 11px}
+div.result-contents-area table tr td.score{font-size: 20px; color: #000; text-align: right;}
+div.result-contents-area table tr td.score b{font-size: 15px; font-weight: normal; color: #606060}
+
+ul.result-list{padding: 0; margin: 0; padding: 15px}
+ul.result-list li{width: 20%; list-style: none; float: left;}
+ul.result-list li div{width: 40px; height: 40px; margin: 0 auto; border: 2px solid #cbcbcb; border-radius: 40px}
+ul.result-list li p{margin-top: 3px; font-size: 12px}
+ul.result-list-detail{clear: both; padding: 0}
+ul.result-list-detail li{list-style: none; text-align: left; background-color: #f5f5f5; padding: 15px; border-radius: 5px; margin-bottom: 10px}
+ul.result-list-detail li div a{width: 30px; height: 30px; border-radius: 30px; border: 2px solid #cbcbcb; display: inline-block; vertical-align: middle; background-color: #fff; margin-right: 5px}
+ul.result-list-detail li p{font-size: 12px; color: #252525; margin: 0; margin-top: 15px; word-break: keep-all; padding: 0 5px}
+
+
+
+
+
+/* popup */
+.ios .dialog{border-radius: 0; width: 230px; margin-left: -115px}
+.ios .dialog-inner{border-radius: 0; background: rgba(255,255,255,1)}
+.ios .dialog-button{height: 47px; color: #fff; font-size: 15px; font-weight: 600; }
+.ios .dialog-button:first-child:last-child{border-radius: 0}
+.ios .dialog-button:first-child{border-radius: 0; background-color: #a39fa4}
+.ios .dialog-button:last-child{border-radius: 0; background-color: #661f88}
+.ios .dialog-inner p{margin: 0}
+.ios .dialog-inner b{color: #661f88}
+.ios .dialog-inner b.red{color: #cd4c2e}
+.ios .dialog-buttons-vertical .dialog-button:last-child{border-radius: 0}
+
+
+.line-1 .dialog-inner{padding: 50px 0;}
+.line-2 .dialog-inner{padding: 45px 0;}
+.line-3 .dialog-inner{padding: 35px 0;}
+.line-4 .dialog-inner{padding: 25px 0;}
+.search .dialog-inner:before{content:''; display: block; width: 60px; height: 60px; margin: 0 auto; background-image: url("../images/search.png"); background-size: contain; background-repeat: no-repeat;}
+.search .dialog-inner{padding-top: 35px; padding-bottom: 25px; font-size: 14px}
+.search .dialog-inner b{font-weight: normal; color: #000}
+.search .dialog-inner p{color: #4d4d4d; margin-top: 10px}
+.search .dialog-text{margin-top: 20px}
+.search.v2 .dialog-inner:before{background-image: url("../images/search2.png"); width: 65px; height: 65px}
+
+.ios .dialog-buttons-vertical .dialog-buttons{padding: 32px; background: #fff; padding-top: 0; padding-bottom: 25px; font-weight: 600}
+.ios .dialog-buttons-vertical .dialog-button:last-child{border-radius: 0;}
+.ios .dialog-buttons-vertical .dialog-button{background: #eeeeee; margin-bottom: 8px; border-radius: 5px !important; color: #4e4e4e; font-size: 14px; height: 33px; line-height: 35px; border: 1px solid #dddddd;}
+.ios .dialog-buttons-vertical .dialog-button.active{background: #4e4e4e; color: #fff; border:0;}
+.ios .dialog-buttons-vertical .dialog-button:after{display: none}
+.ios .dialog-buttons-vertical .dialog-inner{padding: 20px 0; padding-bottom: 15px; background: #fff;}
+.ios .dialog-buttons-vertical .dialog-inner:after{transform: none; transform-origin: 0.0s}
+.ios .dialog-buttons-vertical .dialog-inner:after{display: none; background-color: transparent;}
+.ios .dialog-buttons-vertical .dialog-inner .dialog-title{font-size: 14px; font-weight: normal;}
+.ios .dialog-buttons-vertical .dialog-inner .dialog-text{color: #4d4d4d; font-size: 13px}
+
+div.about *{box-sizing: border-box; margin:0; padding: 0;}
+div.about{background-color: #fff}
+div.about div.about-top{height: 95px; background: #fff; padding: 40px 0; text-align: center; font-size: 20px; font-weight: 600}
+div.about ul.about-list{padding: 0; margin:0; box-sizing: border-box;}
+/*div.about ul.about-list li:nth-child(odd){background-color: #f5f5f5}*/
+div.about ul.about-list li{padding: 30px 0}
+div.about ul.about-list li h1{color: #222222; font-size: 18px; text-align: center; font-weight: normal;}
+div.about ul.about-list li p{text-align: center; color: #424242; font-size: 13px}
+div.about ul.about-list li a{width: 65px; height: 65px; display: block; margin: 20px auto; background-size: contain; background-repeat: no-repeat; background-position: center;}
+div.about ul.about-list li:nth-child(1) a{background-image: url("../images/img1.png");}
+div.about ul.about-list li:nth-child(2) a{background-image: url("../images/img2.png");}
+div.about ul.about-list li:nth-child(3) a{background-image: url("../images/img3.png");}
+div.about ul.about-list li:nth-child(4) a{background-image: url("../images/img4.png");}
+
+div.about ul.about-list li{padding: 0; background-color: #fff; background-size: 100% 100%; background-repeat: no-repeat; background-position: center;}
+div.about ul.about-list li:nth-child(1){height: 345px; background-image: url("../images/introduce1.png");}
+div.about ul.about-list li:nth-child(2){height: 345px; background-image: url("../images/introduce2.png");}
+div.about ul.about-list li:nth-child(3){height: 305px; background-image: url("../images/introduce3.png");}
+div.about ul.about-list li:nth-child(4){height: 260px; background-image: url("../images/introduce4.png");}
+
+
+
+
+
+
+div.product-page ul.product-page-list{padding: 0; margin: 0}
+div.product-page ul.product-page-list li{list-style: none;height: 158px; width: 100%;background-image: url("../images/product_img.png"); background-repeat: no-repeat;background-size: cover;background-position: center; display: table;}
+div.product-page ul.product-page-list li h1{margin: 0; text-align: center; display: table-cell; vertical-align: middle; color: #fff; font-size: 20px}
+
+
+
+
+
+
+
+div.introduce * {box-sizing: border-box;}
+div.introduce .swiper-container{height: 215px}
+div.introduce{background-color: #fff;}
+div.introduce-top{height: 95px; padding: 35px}
+div.introduce-top p{font-size: 20px; color: #222222; font-weight: 600; text-align: center; margin: 0;}
+div.introduce div.completed-button{margin-top: 8px; padding: 0 20px; margin-bottom: 8px}
+div.introduce div.contents h1{text-align: center; margin: 0; padding: 0}
+
+ul.introduce-list{padding: 0; margin: 0}
+ul.introduce-list > li{display: block; list-style: none; position: relative;}
+ul.introduce-list > li h1{font-size: 18px; margin: 0; text-align: center;}
+ul.introduce-list > li h2{color: #006c08; font-size: 15px; font-weight: normal; text-align: center; margin: 0}
+ul.introduce-list > li p{color: #222222; font-size: 13px; text-align: center; margin: 0; word-break: keep-all;}
+ul.introduce-list > li div.product-img{width: 100%; height: 200px; background-size: contain; background-size: contain; background-repeat: no-repeat; background-position: center;; margin-top: 10px; margin-bottom:10px;}
+ul.introduce-list > li:nth-child(1){padding: 30px 25px}
+ul.introduce-list > li:nth-child(1) p{margin-top: 24px; line-height: 22px}
+ul.introduce-list > li:nth-child(1) div.product-img{background-image: url("../images/pd_1.png");}
+ul.introduce-list > li:nth-child(2){background-color: #854999; padding: 30px 15px; color: #fff}
+ul.introduce-list > li:nth-child(2) h1{font-weight: normal;}
+
+ul.introduce-list > li ul{padding: 0; margin: 0; padding-left: 15px; margin-top: 25px}
+ul.introduce-list > li ul li{list-style: decimal;; margin-bottom: 3px}
+ul.introduce-list > li.howto{padding: 30px 15px;}
+ul.introduce-list > li.howto h1{font-size: #000; font-weight: normal;}
+ul.introduce-list > li.howto ul li{font-size: 14px; color: #555555}
+ul.introduce-list > li.howto ul.howto-list.v2{padding: 0}
+ul.introduce-list > li.howto ul.howto-list.v2 li{list-style: none; background: url("../images/list.png") no-repeat top 4px left; background-size: 10px 10px; padding-left: 15px}
+/*ul.introduce-list > li.howto ul.howto-list.v2 li:before{content:'';width: 10px; height: 10px; background: url("../images/list.png") no-repeat;background-size: contain; background-position: top center;display: inline-block; margin-right: 3px}*/
+
+ul.introduce-list > li ul.img-list{margin: 30px 0; padding: 0 15px; height: 70px}
+ul.introduce-list > li ul.img-list li{width: 33.3%; list-style: none; float: left;}
+ul.introduce-list > li ul.img-list li div{width: 70px; height: 70px; border: 1px solid #9fa0a0; margin: 0 auto; border-radius: 70px; background-size:40%; background-repeat: no-repeat; background-position: bottom center;}
+ul.introduce-list > li ul.img-list li:nth-child(1) div{background-image: url("../images/p_1.png");}
+ul.introduce-list > li ul.img-list li:nth-child(2) div{background-image: url("../images/p_5.png"); background-size: 50%}
+ul.introduce-list > li ul.img-list li:nth-child(3) div{background-image: url("../images/p_7.png"); background-size: 70%; background-position: center;}
+ul.introduce-list > li:nth-child(4){background-color: #f5f5f5}
+ul.introduce-list > li div.img-div{height: 150px; width: 100%; position: absolute;; background-image: url("../images/p_8.png");; background-repeat: no-repeat; background-size: contain;background-position: right center; top: 60px; right: 15px}
+ul.introduce-list > li:nth-child(5) p{margin-top: 110px; font-size: 14px}
+
+
+div.introduce div.accordion-item{border-top: 1px solid #dbdbdb; border-bottom:0;}
+div.introduce div.accordion-item div.introduce-contents{margin: 25px 0;}
+div.introduce div.accordion-item div.introduce-contents h1{font-size: 14px; color: #222222; font-weight: 600;}
+div.introduce div.accordion-item div.introduce-contents ul{padding: 0; margin: 0; padding-left: 15px}
+div.introduce div.accordion-item div.introduce-contents ul li{list-style: decimal; font-size: 14px; color: #424242; line-height: 25px}
+div.introduce div.accordion-item div.introduce-contents table{width: 100%; margin: 25px 0; font-size: 14px; color: #424242; border-top: 1px solid #4d4d4d; border-collapse: collapse;}
+div.introduce div.accordion-item div.introduce-contents table th{background-color: #e6e6e6; text-align: left; font-weight: normal; padding-left: 10px; padding-right: 10px}
+div.introduce div.accordion-item div.introduce-contents table td{padding-left: 10px; padding-right: 10px;padding-top: 15px; padding-bottom: 15px}
+div.introduce div.accordion-item div.introduce-contents table tr{border-bottom: 1px solid #d0d0d0}
+
+div.mypage div.order-detail{margin-top: 15px; margin-bottom: 15px}
+
+
+div.privacy{height: 40px; padding: 10px; border-top: 1px solid #d0d0d0; border-bottom: 1px solid #d0d0d0; text-align: left; position: relative; }
+div.privacy p{display: inline-block; text-align: left; font-size: 11px; margin: 0}
+div.privacy p:after{content: '|'; display: inline-block; margin-left: 5px }
+div.privacy p:nth-child(2):after{display: none;}
+div.privacy a{width: 25px; height: 25px; background-color: transparent; background-size: contain; border-radius: 0; background-repeat: no-repeat; position: absolute; top:6px; padding: 0; margin: 0}
+div.privacy a.instar{background-image: url("../images/sns_1.png"); right: 45px}
+div.privacy a.facebook{background-image: url("../images/sns_2.png"); right: 15px}
+
+div.footer{background-color: #f5f5f5; text-align: center;; padding-bottom: 40px; padding-top: 15px}
+div.footer p{font-size: 10px; color: #666666; margin: 0}
+div.footer p.number{font-size: 18px; color: #555555; font-weight: bold; margin-bottom: 5px}
+div.footer p.working-day, div.footer p.email{font-weight: 600}
+div.footer p.copyright{color: #6f6f6f; margin-top: 2px}
+
+html.with-panel-right-reveal .framework7-root>.view, html.with-panel-right-reveal .panel-backdrop, html.with-panel-right-reveal .views{    transform: translate3d(-100%,0,0);}
+.panel{width: 100%}
+/*.ios .navbar .right{margin-right: 10px}*/
+.ios .navbar .left a+a, .ios .navbar .right a+a{margin-left: 0}
+.ios .navbar a.icon-only{width: 30px}
+a.top-icon i{background-size: contain; background-repeat: no-repeat;width: 20px; height: 20px; }
+a.top-icon span{width: 15px; height: 15px; background-color: #661f88; position: absolute; top: 7px; border-radius: 15px; right: 2px; font-size: 10px; color: #fff; font-weight: bold; line-height: 16px; text-align: center;}
+i.alert{background-image: url("../images/top_alert.png");}
+i.cart{background-image: url("../images/top_cart.png");}
+
+ul.main-image{height: 400px; padding: 0 15px; margin-top: 35px}
+ul.main-image li{width: 49%; float: left; height: 50%;}
+ul.main-image li > div{ background-size: cover; background-repeat: no-repeat; background-position: center; height: 100%; position: relative;}
+ul.main-image li > div div.product-price-text{position: absolute; bottom: 10px; text-align: center; width: 100%}
+ul.main-image li > div div.product-price-text h2{font-size: 11px; font-weight: 500}
+ul.main-image li > div div.product-price-text h3{font-size: 10px; font-weight: 400; color: #666666}
+ul.main-image li > div div.product-price-text h4{font-size: 11px; font-weight: 400}
+ul.main-image li:nth-child(odd){margin-right: 5px}
+ul.main-image li:nth-child(2){margin-bottom: 5px}
+
+.ios .toolbar:before{display: none;}
+
+div.result-title{font-size: 10px; padding-top: 25px; padding-bottom: 5px}
+div.result-title p{margin: 0; color: #515151; text-align: center;}
+div.result-title p b{color: #000}
+div.result-title p.result-text{font-size: 13px; margin-top: 25px}
+
+div.list-border{border-top: 1px solid #dbdbdb}
