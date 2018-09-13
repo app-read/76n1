@@ -100,7 +100,7 @@
 
 .ios body{font-family: 'NanumSquare', 'Lato' ; letter-spacing: -0.7px}
 .ios .card{ border:none; box-shadow: none; background-color: transparent; margin: 0}
-.ios .navbar:after{border-bottom: 1px solid #bdbdbd}
+.ios .navbar:after{border-bottom: 1px solid #000; background-color: #000}
 .ios .navbar-inner{padding: 0 5px; background: #000}
 .mgt25{margin-top: 25px !important}
 .mgt32{margin-top: 32px !important; padding: 0 !important}
@@ -136,6 +136,7 @@
 .empty{display: flex !important; flex-direction: column; background-color: #fff !important}
 .page-content.write .footer-button{flex: none; margin-top: 0}
 .page-content.photo .footer-button{flex: none; margin-top: 0}
+.clear{clear: both;}
 div.step div.step-area> p, div.photo-area > p{text-align: center; margin-top: 15px; font-size: 12px; font-weight: 600}
 div.step div.block h1{font-size: 15px; font-weight: 300; text-align: center; color: #000}
 div.step.order div.block{padding: 25px 0; margin: 0}
@@ -758,7 +759,8 @@ div.main li{list-style: none;}
 div.main h1{font-size: 18px; font-weight: normal; font-family: 'NanumSquare', lato;}
 div.main h2{font-size: 14px;color: #424242; font-weight: normal; margin-top: 15px}
 div.main div.contents{padding: 33px 0;}
-div.main div.contents.area1{background-color: #f5f5f5;}
+div.main div.contents.area1{background-color: #f5f5f5; height: 630px}
+div.main div.contents.area1.v2{background-color: #fff}
 div.main div.contents div.main-image{height: 225px; background-image: url("../images/main_img.png"); background-size: contain; background-repeat: no-repeat;background-position: center; margin-top: 15px}
 div.main div.contents div.main-image.v2{background-image: url("../images/main_img2.png");  height: 260px}
 div.main div.contents div.main-image.v3{height: 220px; background-image: url("../images/main_img3.png");}
@@ -782,7 +784,7 @@ div.main div.contents a.list-icon{width: 27px; height: 10px; background-image: u
 div.main div.contents a i{color: #fff; font-size: 20px}
 div.main div.contents a div{color: #fff;}
 div.main div.contents img{width: 100%; margin-top: 15px}
-div.main div.contents img.phone{width: auto; height: 335px}
+div.main div.contents img.phone{width: 50%; height: auto}
 div.main div.contents.area3{background-color: #f5f5f5}
 div.main div.contents ul.logo-list {height: 235px; margin-top: 30px; padding: 0 15px}
 div.main div.contents ul.logo-list li{width: 50%; height: 100px; float: left;}
@@ -796,28 +798,53 @@ div.main div.contents ul.logo-list li:nth-child(4) div{background-image: url("..
 div.main div.contents.play{padding-bottom: 0}
 div.main div.contents.play div{height: 160px; background-color: #d0b9a4; margin-top: 33px; }
 div.main div.login-after{height: 90px; border-bottom: 1px solid #000; padding: 33px}
-div.main div.login-purchase{height: 285px; background-color: #f5f5f5; padding: 15px}
+
+
+
+/*div.main div.login-purchase div.accordion-list *{border:0;}*/
+div.main div.login-purchase div.accordion-list{background-color: #fff; border: 1px solid #d0d0d0;}
+div.main div.login-purchase div.accordion-list div.accordion-item{border-bottom: 1px solid #d0d0d0; }
+div.main div.login-purchase div.accordion-list div.accordion-item.accordion-item-opened{border-top: 2px solid #67188a}
+div.main div.login-purchase div.accordion-list div.accordion-item.accordion-item-opened div.accordion-item-toggle{font-weight: 600}
+div.main div.login-purchase div.accordion-list div.accordion-item.borderless{border-bottom:0}
+div.main div.login-purchase div.accordion-list div.accordion-item-toggle{height: 40px; padding-top: 10px}
+div.main div.login-purchase div.accordion-list div.accordion-item-toggle:after{content: '';width: 15px; height: 10px; background-image: url("../images/bottom.png"); display: block; background-size: contain; margin: 0 auto; margin-top: 3px; background-repeat: no-repeat;}
+div.main div.login-purchase div.accordion-list div.accordion-item.accordion-item-opened div.accordion-item-toggle:after{display: none}
+div.main div.login-purchase div.accordion-list div.accordion-item-content{background-color: #fff}
+div.main div.login-purchase div.accordion-list div.accordion-item-content div.card{margin-top: 15px; margin-bottom: 15px}
+
+
+div.main div.login-purchase{height: auto; background-color: #f5f5f5; padding: 15px}
 div.main div.login-purchase div.login-purchase-card{background-color: #fff; height: 210px; border:1px solid #d0d0d0;border-top: 2px solid #67188a}
-div.main div.login-purchase button.btn-purchase{width: 90px; border: 1px solid #8f8f8f; height: 25px; background-color: transparent; font-size: 10px; margin-top: 20px}
+div.main div.login-purchase button.btn-purchase{width: 90px; border: 1px solid #8f8f8f; height: 25px; background-color: transparent; font-size: 10px; margin-top: 15px}
 div.main div.login-purchase div.card div.card-row{border-radius: 0; width: 100%; height: 100%; margin: 0; border:0; padding: 0}
 div.main div.login-purchase div.card div.card-row p.title{margin-top: 15px; margin-bottom: 10px}
-div.main div.login-purchase div.card div.card-row div.shipping button{background-image: url("../images/purchase.png"); background-repeat: no-repeat; background-position: right 5px center; background-size: 12%; width: 85px; font-size: 10px; background-color: #000; padding-right: 17px; font-weight: 600}
+div.main div.login-purchase div.card div.card-row div.shipping button{background-image: url("../images/purchase.png"); background-repeat: no-repeat; background-position: right 5px center; background-size: 12%; width: 100px; font-size: 10px; background-color: #000; padding-right: 17px; font-weight: 600}
 div.main div.login-purchase div.login-purchase-card.v2{padding-top: 40px}
 div.main div.login-purchase div.login-purchase-card.v2 div.circle{background-size: 10%; background-position: center;}
+
+
+
+
+
+
+
+
 iframe{width: 100%; height: 100%}
 
 div.main div.contents ul.question-list{padding: 0 15px}
 div.main div.contents ul.question-list li{border: 1px solid #d0d0d0; border-radius: 5px; height: 35px; text-align: left; margin-bottom: 5px; padding: 8px 15px; color: #222222; font-size: 13px}
 
-div.main div.contents.review{background-color: #f5f5f5; padding-bottom: 13px}
-div.main div.contents.review button{margin-top: 25px; background-color: #67188a; color: #fff; height: 25px; width: 225px; border:0; border-radius: 5px; font-size: 10px}
-div.main div.contents ul.review-list{height: 300px; margin-top: 33px}
-div.main div.contents ul.review-list li{width: 49%; float: left; height: 150px;}
+div.main div.contents.review{background-color: #fff; padding-bottom: 13px}
+div.main div.contents.review button{margin-top: 25px; background-color: #67188a; color: #fff; height: 25px; width: 225px; border:0; font-size: 10px; margin-bottom: 38px}
+div.main div.contents ul.review-list{height: auto; margin-top: 33px;padding : 0 15px;}
+div.main div.contents ul.review-list li{width: 49%; float: left; height: auto;}
 div.main div.contents ul.review-list li:nth-child(1){margin-right: 1%}
 div.main div.contents ul.review-list li:nth-child(3){margin-right: 1%; margin-top: 1%}
 div.main div.contents ul.review-list li:nth-child(4){margin-top: 1%}
+div.main div.contents ul.review-list li > div img{margin: 0}
 div.main div.contents ul.review-list li > div{width: 100%; height: 100%; background-position: center; background-size: cover; position: relative; background-repeat: no-repeat;}
-div.main div.contents ul.review-list li > div div.id{padding-top: 7px; font-weight: 600}
+div.main div.contents ul.review-list li > div div.id{padding-top: 7px; font-weight: 600; position: absolute; top: 0; padding-left: 40px}
 /*div.main div.contents ul.review-list li > div div.id{position: absolute;left: 0; top: 0; height: 33px; border-bottom: 1px solid rgb(0,0,0,0.3); width: 100%; background-color: #fff; opacity: 0.8;  padding: 10px; font-size: 12px; padding-left: 35px; text-align: left; }
 div.main div.contents ul.review-list li > div div.id:after{
     content: '';
@@ -945,10 +972,11 @@ div.about ul.about-list li:nth-child(3) a{background-image: url("../images/img3.
 div.about ul.about-list li:nth-child(4) a{background-image: url("../images/img4.png");}
 
 div.about ul.about-list li{padding: 0; background-color: #fff; background-size: 100% 100%; background-repeat: no-repeat; background-position: center;}
-div.about ul.about-list li:nth-child(1){height: 345px; background-image: url("../images/introduce1.png");}
+div.about ul.about-list li img{width: 100%; }
+/*div.about ul.about-list li:nth-child(1){height: 345px; background-image: url("../images/introduce1.png");}
 div.about ul.about-list li:nth-child(2){height: 345px; background-image: url("../images/introduce2.png");}
 div.about ul.about-list li:nth-child(3){height: 305px; background-image: url("../images/introduce3.png");}
-div.about ul.about-list li:nth-child(4){height: 260px; background-image: url("../images/introduce4.png");}
+div.about ul.about-list li:nth-child(4){height: 260px; background-image: url("../images/introduce4.png");}*/
 
 
 
@@ -1042,15 +1070,16 @@ a.top-icon span{width: 15px; height: 15px; background-color: #661f88; position: 
 i.alert{background-image: url("../images/top_alert.png");}
 i.cart{background-image: url("../images/top_cart.png");}
 
-ul.main-image{height: 400px; padding: 0 15px; margin-top: 35px}
-ul.main-image li{width: 49%; float: left; height: 50%;}
-ul.main-image li > div{ background-size: cover; background-repeat: no-repeat; background-position: center; height: 100%; position: relative;}
+ul.main-image{height: auto; padding: 0 15px; margin-top: 35px}
+ul.main-image li{width: 49%; float: left; height: auto; }
+ul.main-image li > div{ background-size: cover; background-repeat: no-repeat; background-position: center; height: 100%; position: relative; width: 100%}
 ul.main-image li > div div.product-price-text{position: absolute; bottom: 10px; text-align: center; width: 100%}
 ul.main-image li > div div.product-price-text h2{font-size: 11px; font-weight: 500}
 ul.main-image li > div div.product-price-text h3{font-size: 10px; font-weight: 400; color: #666666}
 ul.main-image li > div div.product-price-text h4{font-size: 11px; font-weight: 400}
 ul.main-image li:nth-child(odd){margin-right: 5px}
 ul.main-image li:nth-child(2){margin-bottom: 5px}
+div.main ul.main-image li > div img{margin: 0;}
 
 .ios .toolbar:before{display: none;}
 
